@@ -8,7 +8,7 @@ import MyWork from './components/MyWork';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <header>
       <nav>
         <Link to="/">Home</Link>
