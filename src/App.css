@@ -6,3 +6,59 @@ nav a {
 li {
   margin: 8px;
 }
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+      width: 100%;
+      display: inline-flex;
+      justify-content: space-between;
+  }
+  .navbar-nav {
+      width: 100%;
+      display: inline-flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+  }
+  .container-fluid {
+      display: unset !important;
+  }
+  .navbar-nav li {
+      display: inline-flex;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+  }
+  .biocard {
+      flex: 0 0 50%;
+  }
+  hr {
+      display: block;
+  }
+  #contact-info {
+      display: block;
+      position: unset;
+      top: unset;
+  }
+  .other {
+      flex: 1 0 100%;
+  }
+  h5 a {
+      font-size: unset;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .jumbotron {
+      padding: 40% 0
+  }
+  .jumbotron h1 {
+      font-size: 20vw !important;
+  }
+}
+
+@media (min-width: 1200px) {}
