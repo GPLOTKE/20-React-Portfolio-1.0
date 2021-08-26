@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
-import { HashRouter as Router } from 'react-router-dom';
+import { HashRouter as Router, Link, Route, Switch} from 'react-router-dom';
+// import { HashRouter as Router } from 'react-router-dom';
 import './App.css';
 import React from 'react';
 import Biography from './components/Biography';
