@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# React App Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Deployed Application URL:
+
+https://gplotke.github.io/20-react-portfolio/
 
 ## Available Scripts
 
