@@ -5,6 +5,7 @@ import Biography from './components/Biography';
 import ContactInfo from './components/ContactInfo';
 import Home from './components/Home';
 import MyWork from './components/MyWork';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
       </Route>
     </Switch>
     </header>
+    <Footer>
+    </Footer>
     </Router>  
   );
 }
