@@ -1,3 +1,136 @@
+:root {
+    --jumbotronFont: calc(72px + 2.5vw);
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.container {
+    display: block;
+    text-align: center;
+}
+
+.nav-link:hover {
+    text-shadow: -1px -1px 1px #2600ffbb;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+
+.biocard {
+    grid-column: 1;
+}
+
+hr {
+    display: none;
+}
+
+#contact-info {
+    position: sticky;
+    top: 0;
+}
+
+#me {
+    text-align: center;
+}
+
+.about-me {
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.card {
+    width: unset !important;
+}
+
+p {
+    font-weight: 200;
+}
+
+h2 {
+    margin-bottom: 0;
+    color: slategray;
+}
+
+h5 {
+    margin: 1rem 0!important;
+}
+
+h5 a {
+    font-size: 1.5vw;
+}
+
+.card-title {
+    color: lightblue;
+    background: rgb(255, 255, 255);
+    /* -webkit-text-stroke: .15px rgb(3, 3, 3); */
+    text-shadow: 1px 0px 1px rgba(3, 3, 3, 1);
+    /* mix-blend-mode: color-dodge; */
+    text-align: center;
+}
+
+.cardlinks {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+}
+
+.card-img-bottom {
+    -webkit-box-shadow: 0px 0px 20px -4px rgba(0, 0, 0, 0.62);
+    box-shadow: 0px 0px 20px -4px rgba(0, 0, 0, 0.62);
+}
+
+.card-img-bottom:hover {
+    -webkit-box-shadow: 0px 0px 20px -4px rgba(35, 75, 253, 0.62);
+    box-shadow: 0px 0px 20px -4px rgba(35, 75, 253, 0.62);
+    transition: all .2s ease-in-out
+}
+
+.cardlinks a {
+    flex: 1 0 40%;
+}
+
+.h4 {
+    margin-top: -2%;
+    text-decoration-line: underline !important;
+}
+
+.jumbotron {
+    color: white;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    object-fit: cover;
+    height: 500px;
+    padding-top: 10%;
+    padding-bottom: 30%;
+}
+
+.jumbotron h1 {
+    font-size: var(--jumbotronFont) !important;
+    -webkit-text-stroke: .25px black;
+}
+
+.footer {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    gap: 2vw;
+    background-color: white;
+    color: black;
+    -webkit-box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.62);
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.62);
+    text-align: center;
+    font-size: x-large;
+}
+
 nav a {
   padding-right: 8px;
   text-decoration: none;
