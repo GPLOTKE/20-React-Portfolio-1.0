@@ -1,5 +1,4 @@
 import { HashRouter as Router, Link, Route, Switch} from 'react-router-dom';
-// import { HashRouter as Router } from 'react-router-dom';
 import './App.css';
 import React from 'react';
 import Biography from './components/Biography';
@@ -9,7 +8,7 @@ import MyWork from './components/MyWork';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
     <header>
       <nav>
         <Link to="/">Home</Link>

@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 http://gplotke.github.io/20-react-portfolio
 
+## GitHub URL:
+
+https://github.com/GPLOTKE/20-react-portfolio
+
 ## Available Scripts
 
 In the project directory, you can run:
