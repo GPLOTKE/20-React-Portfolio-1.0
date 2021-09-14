@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployed Application URL:
 
-https://gplotke.github.io/20-react-portfolio
+https://gplotke.github.io/20-React-Portfolio-1.0/
 
 ## GitHub URL:
 
